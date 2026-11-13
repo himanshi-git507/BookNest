@@ -1,0 +1,410 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNest | Find Your Next Chapter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="header">
+    <nav class="navbar container">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">B</span>
+            BookNest<span>.</span>
+        </a>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#featured">Books</a></li>
+            <li><a href="#bestsellers">Bestsellers</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#newsletter" class="nav-btn">Explore Books ↗</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <span class="eyebrow">A WORLD BEYOND PAGES</span>
+
+            <h1>
+                Every book<br>
+                opens a new<br>
+                <em>world.</em>
+            </h1>
+
+            <p>
+                Discover stories that inspire, knowledge that empowers
+                and adventures waiting between the pages.
+                Your next favourite book is waiting here.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#featured" class="primary-btn">
+                    Explore Collection ↗
+                </a>
+                <a href="#categories" class="secondary-btn">
+                    Browse Categories →
+                </a>
+            </div>
+
+            <div class="hero-bottom">
+                <span>READ MORE. DREAM BIGGER.</span>
+                <span>EST. 2026</span>
+            </div>
+
+        </div>
+
+        <div class="hero-visual">
+
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1000&q=85"
+                     alt="Beautiful bookstore interior">
+            </div>
+
+            <div class="floating-note">
+                <span class="note-icon">✦</span>
+                <div>
+                    <strong>Find your next favourite</strong>
+                    <p>One page at a time.</p>
+                </div>
+            </div>
+
+            <div class="hero-caption">
+                A LITTLE ESCAPE, A LOT OF MAGIC.
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- CATEGORY SECTION -->
+<section class="categories section-padding" id="categories">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">01 — EXPLORE YOUR INTERESTS</span>
+                <h2>Find your <em>kind of story.</em></h2>
+            </div>
+            <p>From timeless classics to fresh perspectives, discover something made for you.</p>
+        </div>
+
+        <div class="category-grid">
+
+            <a href="#featured" class="category-card">
+                <span class="category-icon">♡</span>
+                <h3>Romance</h3>
+                <p>Stories of love and connection</p>
+                <span class="category-arrow">↗</span>
+            </a>
+
+            <a href="#featured" class="category-card">
+                <span class="category-icon">⌘</span>
+                <h3>Technology</h3>
+                <p>Ideas shaping the future</p>
+                <span class="category-arrow">↗</span>
+            </a>
+
+            <a href="#featured" class="category-card">
+                <span class="category-icon">✧</span>
+                <h3>Self Growth</h3>
+                <p>Become your best self</p>
+                <span class="category-arrow">↗</span>
+            </a>
+
+            <a href="#featured" class="category-card">
+                <span class="category-icon">☽</span>
+                <h3>Fiction</h3>
+                <p>Escape into new worlds</p>
+                <span class="category-arrow">↗</span>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- FEATURED BOOKS -->
+<section class="featured section-padding" id="featured">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">02 — HANDPICKED FOR YOU</span>
+                <h2>Books worth <em>opening.</em></h2>
+            </div>
+            <a href="#bestsellers" class="text-link">View collection ↗</a>
+        </div>
+
+        <div class="book-grid">
+
+            <article class="book-card">
+                <div class="book-cover">
+                    <img src="https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg"
+                         alt="Pride and Prejudice book cover">
+                    <span class="book-label">CLASSIC</span>
+                </div>
+                <div class="book-info">
+                    <span class="book-category">FICTION</span>
+                    <h3>Pride and Prejudice</h3>
+                    <p>Jane Austen</p>
+                    <div class="book-price">
+                        <strong>₹299</strong>
+                        <span>₹399</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <div class="book-cover">
+                    <img src="https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
+                         alt="The Great Gatsby book cover">
+                    <span class="book-label">POPULAR</span>
+                </div>
+                <div class="book-info">
+                    <span class="book-category">CLASSIC</span>
+                    <h3>The Great Gatsby</h3>
+                    <p>F. Scott Fitzgerald</p>
+                    <div class="book-price">
+                        <strong>₹249</strong>
+                        <span>₹349</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <div class="book-cover">
+                    <img src="https://covers.openlibrary.org/b/isbn/9780062316110-L.jpg"
+                         alt="Sapiens book cover">
+                    <span class="book-label">TRENDING</span>
+                </div>
+                <div class="book-info">
+                    <span class="book-category">NON-FICTION</span>
+                    <h3>Sapiens</h3>
+                    <p>Yuval Noah Harari</p>
+                    <div class="book-price">
+                        <strong>₹399</strong>
+                        <span>₹499</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <div class="book-cover">
+                    <img src="https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg"
+                         alt="The Power of Habit book cover">
+                    <span class="book-label">EDITOR'S PICK</span>
+                </div>
+                <div class="book-info">
+                    <span class="book-category">SELF GROWTH</span>
+                    <h3>The Power of Habit</h3>
+                    <p>Charles Duhigg</p>
+                    <div class="book-price">
+                        <strong>₹349</strong>
+                        <span>₹449</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- PROMO BANNER -->
+<section class="promo">
+    <div class="container promo-grid">
+
+        <div class="promo-content">
+            <span class="eyebrow">A LITTLE SOMETHING FOR YOU</span>
+            <h2>Make room for<br><em>more stories.</em></h2>
+            <p>
+                Great books. Better prices.
+                Discover your next read from our handpicked collection.
+            </p>
+            <a href="#bestsellers" class="light-btn">Discover More ↗</a>
+        </div>
+
+        <div class="promo-visual">
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85"
+                 alt="Books arranged on a table">
+        </div>
+
+    </div>
+</section>
+
+<!-- BESTSELLERS -->
+<section class="bestsellers section-padding" id="bestsellers">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">03 — READER FAVOURITES</span>
+                <h2>The <em>bestseller</em> shelf.</h2>
+            </div>
+            <span class="shelf-note">MOST LOVED BY READERS ↗</span>
+        </div>
+
+        <div class="best-list">
+
+            <article class="best-item">
+                <span class="best-number">01</span>
+                <img src="https://covers.openlibrary.org/b/isbn/9780061120084-M.jpg"
+                     alt="To Kill a Mockingbird book cover">
+                <div class="best-details">
+                    <h3>To Kill a Mockingbird</h3>
+                    <p>Harper Lee · Fiction</p>
+                </div>
+                <strong>₹329</strong>
+            </article>
+
+            <article class="best-item">
+                <span class="best-number">02</span>
+                <img src="https://covers.openlibrary.org/b/isbn/9780451524935-M.jpg"
+                     alt="1984 book cover">
+                <div class="best-details">
+                    <h3>1984</h3>
+                    <p>George Orwell · Fiction</p>
+                </div>
+                <strong>₹279</strong>
+            </article>
+
+            <article class="best-item">
+                <span class="best-number">03</span>
+                <img src="https://covers.openlibrary.org/b/isbn/9780747532743-M.jpg"
+                     alt="Harry Potter book cover">
+                <div class="best-details">
+                    <h3>Harry Potter and the Philosopher's Stone</h3>
+                    <p>J. K. Rowling · Fantasy</p>
+                </div>
+                <strong>₹449</strong>
+            </article>
+
+            <article class="best-item">
+                <span class="best-number">04</span>
+                <img src="https://covers.openlibrary.org/b/isbn/9780307474278-M.jpg"
+                     alt="The Alchemist book cover">
+                <div class="best-details">
+                    <h3>The Alchemist</h3>
+                    <p>Paulo Coelho · Fiction</p>
+                </div>
+                <strong>₹299</strong>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- WHY BOOKNEST -->
+<section class="why-us section-padding" id="about">
+
+    <div class="container">
+
+        <div class="why-heading">
+            <span class="eyebrow">04 — THE BOOKNEST PROMISE</span>
+            <h2>More than books.<br><em>A reading experience.</em></h2>
+        </div>
+
+        <div class="benefits-grid">
+
+            <div class="benefit">
+                <span>✦</span>
+                <h3>Curated Collection</h3>
+                <p>Thoughtfully selected reads for every kind of reader.</p>
+            </div>
+
+            <div class="benefit">
+                <span>◇</span>
+                <h3>Quality Reads</h3>
+                <p>Discover books that inspire curiosity and imagination.</p>
+            </div>
+
+            <div class="benefit">
+                <span>♡</span>
+                <h3>Reader First</h3>
+                <p>A simple and welcoming space made around readers.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter section-padding" id="newsletter">
+
+    <div class="container newsletter-content">
+        <span class="eyebrow">05 — A NOTE FOR BOOK LOVERS</span>
+        <h2>Good stories deserve<br><em>to be shared.</em></h2>
+        <p>Stay inspired with reading recommendations and new arrivals.</p>
+
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit">Subscribe ↗</button>
+        </form>
+
+        <span class="newsletter-note">A little literary inspiration, delivered occasionally.</span>
+    </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-main">
+
+            <div>
+                <a href="#" class="logo">
+                    <span class="logo-icon">B</span>
+                    BookNest<span>.</span>
+                </a>
+                <p>Turning pages. Opening possibilities.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#categories">Categories</a>
+                <a href="#featured">Books</a>
+                <a href="#about">About Us</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 BookNest. Student project.</span>
+            <a href="#home">Back to top ↑</a>
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
